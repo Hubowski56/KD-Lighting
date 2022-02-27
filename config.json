@@ -1,0 +1,51 @@
+{
+  "main":{"pixel_number":779, "pixel_pin":18, "power_supply_pin": 26, "pixel_order": "RGB"},
+  "lighting":
+  {
+    "colors":
+    {
+      "RED":[255,0,0],
+     "GREEN":[0,255,0],
+      "BLUE":[0,0,255],
+      "WHITE":[255,255,255],
+      "YELLOW":[255,255,0],
+      "AQUA":[0,255,255],
+      "MAGENTA":[255,0,255],
+      "ORANGE":[255,125,0],
+      "SGREEN":[125,255,0],
+      "TURQUOISE":[0,255,125],
+      "OCEAN":[0,125,255],
+      "VIOLET":[125,0,255],
+      "RASPBERRY":[255,0,125],
+      "OFF": [0,0,0]
+    },
+    "wall_division":
+    {
+      "1": [0,260],
+      "2": [261,453],
+      "3": [454,589],
+      "4": [590,667],
+      "5": [668,778]
+    },
+    "effects":
+    [
+      {
+        "id": 1,
+        "name": "rainbow",
+        "settings": {"speed":0.04, "direction": "right", "brightness":1.0}
+      },
+      {
+        "id": 2,
+        "name": "train",
+        "settings": {"background_color": "OFF" , "train_color": "WHITE", "train_speed": 0.5,
+          "train_size": 30, "background_brightness": 1.0, "train_brightness": 1.0}
+      },
+      {
+        "id": 3,
+        "name": "akuku",
+        "settings": {"color_1": "RED", "color_2": "BLUE", "speed": 2.0, "max_level": 1.0, "min_level": 0.0}
+      }
+
+    ]
+  }
+}
